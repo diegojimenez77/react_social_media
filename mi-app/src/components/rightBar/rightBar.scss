@@ -9,6 +9,15 @@
     overflow: scroll;
     background-color: themed("bgSoft");
 
+    @include mobile{
+        display: none;
+      }
+
+        
+    @include tablet{
+            display: none;
+    }
+
     &::-webkit-scrollbar{
         display: none;
     }
@@ -22,6 +31,7 @@
             padding: 20px;
             margin-bottom: 20px;
             background-color: themed("bg");
+
 
             span{
                 color:gray;
@@ -37,6 +47,7 @@
                     align-items: center;
                     gap: 20px;
                     position: relative;
+                    color: themed("textColorSoft");
 
                     img { 
                         width: 40px;
@@ -66,6 +77,7 @@
                 }
                 .buttons{
                     display: flex;
+                    flex-wrap: wrap;
                     align-items: center;
                     gap: 10px;
                     
