@@ -2,7 +2,7 @@
   "name": "mi-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://diegojimenez77.github.io/react_social_media",
+  "homepage": "https://diegojimenez77.github.io",
   "dependencies": {
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",
