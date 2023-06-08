@@ -51,21 +51,21 @@ function App () {
           element:<ProtectedRoute><Layout/></ProtectedRoute>,
           children:[
             {
-              path:"/",
+              path:"react_social_media/",
               element:<Home/>
             },
             {
-              path:"/profile/:id",
+              path:"react_social_media/profile/:id",
               element:<Profile/>
             },
           ]
         },
         {
-          path: "/login",
+          path: "react_social_media/login",
           element: <Login />,
         },
         {
-            path: "/register",
+            path: "react_social_media/register",
             element: <Register />,
           },
       ]);
